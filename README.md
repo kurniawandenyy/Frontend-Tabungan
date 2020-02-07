@@ -1,68 +1,86 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tabungan App
 
-## Available Scripts
+## Table of contents
+* [General Info](#general-info)
+* [Built with](#built-with)
+* [Requirements](#requirements)
+* [Setup](#setup)
+* [Demo](#demo)
+* [Screenshot](#screenshot)
+* [Contact](#contact)
+* [Contributors](#contributors)
 
-In the project directory, you can run:
+## General Info
+Tabungan app is a simple application to manage record income and expenditure of user money. This project for handle frontend only. Built using ReactJS Framework.
+ReactJS is A JavaScript library for building user interfaces. [More about ReactJs](https://reactjs.org/)
 
-### `npm start`
+## Built With
+Project is created with:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[![js-standard-style](https://img.shields.io/badge/ReactJs-v.16.12.0-red)](https://reactjs.org)
+[![js-standard-style](https://img.shields.io/badge/React%20Redux-v.7.1-blueviolet)](https://react-redux.js.org/)
+[![js-standard-style](https://img.shields.io/badge/React-Hooks-green)](https://reactjs.org/docs/hooks-intro.html)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Requirements
+1. [Backend Tabungan App](https://github.com/kurniawandenyy/Backend-Tabungan)
+2. Web Browser (ex. Chrome/Firefox)
 
-### `npm test`
+## Setup
+Steps to run this project:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ - Clone this project
+ 
+	``` git clone https://https://github.com/kurniawandenyy/Frontend-Tabungan.git ```
+	
+ - Rename .env.example file to .env
+ - Edit the .env file and enter your backend url
+ 
+ 	``` REACT_APP_API = http://localhost:8000/ ```
+	
+ - Install NPM Packages
+ 
+	``` npm install ```
+	
+ - Run Project
+ 
+	``` npm start ```
 
-### `npm run build`
+## Demo
+<table>
+  <tr align='center'>
+    <td><img src=https://github.com/kurniawandenyy/Frontend-Tabungan/blob/master/src/demo/demo.gif width="800px" />
+    </td>
+  </tr>
+  </table>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshot
+<table>
+<tr align='center'>
+<td><img src=https://user-images.githubusercontent.com/48039021/74055570-c993e100-4a12-11ea-8730-f1b78402f520.jpg width="300px" /></td>
+<td><img src=https://user-images.githubusercontent.com/48039021/74055602-de707480-4a12-11ea-8fc5-7913e0634bf4.jpg width="300px" /></td></tr>
+<tr align="center">
+<td><img src=https://user-images.githubusercontent.com/48039021/74055617-e3352880-4a12-11ea-869a-7f532d140015.jpg width="300px" /></td>
+<td><img src=https://user-images.githubusercontent.com/48039021/74055623-e6c8af80-4a12-11ea-85d3-3dcb716db8d3.jpg width="300px" /></td></tr>
+<tr align="center">
+<td><img src=https://user-images.githubusercontent.com/48039021/74055629-e9c3a000-4a12-11ea-9853-204f365c50b6.jpg width="300px" /></td>
+<td><img src=https://user-images.githubusercontent.com/48039021/74055636-ecbe9080-4a12-11ea-823d-1cbf61dd615b.jpg width="300px" /></td></tr>
+</table>
+	
+## Contact
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+If you want to contact me you can reach me at <denykurniawan146@gmail.com>.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contributors
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<center>
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/kurniawandenyy">
+          <img width="100" src="https://avatars1.githubusercontent.com/u/48039021?s=460&v=4" alt="Deny Kurniawan"><br/>
+          <sub><b>Deny Kurniawan</b></sub>
+        </a>
+      </td>
+    </tr>
+  </table>
+</center>
